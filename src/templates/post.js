@@ -1,11 +1,11 @@
 import React from "react";
 import { graphql } from "gatsby";
-import Container from "../../components/container";
-import Header from "../../components/header";
-import MoreStories from "../../components/more-stories";
-import PostBody from "../../components/post-body";
-import PostHeader from "../../components/post-header";
-import SectionSeparator from "../../components/section-separator";
+import Container from "../components/container";
+import Header from "../components/header";
+import MoreStories from "../components/more-stories";
+import PostBody from "../components/post-body";
+import PostHeader from "../components/post-header";
+import SectionSeparator from "../components/section-separator";
 import { HelmetDatoCms } from "gatsby-source-datocms";
 
 export default function Post({ data: { site, post, morePosts } }) {
